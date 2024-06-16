@@ -3,7 +3,6 @@ import { useFirebase } from '../Context/FirebaseContext'
 import { useEffect } from 'react'
 import Cards from '../Components/Cards'
 import Loading from '../Components/Loading'
-import { Navigate } from 'react-router-dom'
 
 function Home() {
     const Firebase = useFirebase()
@@ -17,10 +16,6 @@ function Home() {
 
     if(books === null) return (
       <Loading />
-    )
-
-    if(!Firebase.user) return (
-      <Navigate to="/login" />
     )
 
   return (

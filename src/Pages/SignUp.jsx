@@ -38,7 +38,7 @@ function SignUp() {
           </h2>
           <div className="flex w-full justify-end">
             <NavLink to='/login'>
-              <button className="flex w-fit rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 mt-1">Sign Up</button>
+              <button className="flex w-fit rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 mt-1">Login</button>
             </NavLink>
           </div>
         </div>
